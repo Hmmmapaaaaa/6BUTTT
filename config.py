@@ -42,7 +42,7 @@ FORCE_SUB_GROUP3 = int(os.environ.get("FORCE_SUB_GROUP3", "-1001567295651"))
 FORCE_SUB_GROUP4 = int(os.environ.get("FORCE_SUB_GROUP4", "-1001647552026"))
 FORCE_SUB_GROUP5 = int(os.environ.get("FORCE_SUB_GROUP5", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", ""))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
